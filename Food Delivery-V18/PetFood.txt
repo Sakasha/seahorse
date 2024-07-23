@@ -1,0 +1,5 @@
+Paws & Play Pet Emporium,Anna Nagar,Bark Bites(D),1324.99,100,Meow Mix Morsels(C),1424.99,100,Feathered Friends Feast(B),1500.00,100,Seaside Sustenance(F),1340.00,100,Cozy Critter Cuisine(H),1980.00,100,
+Furry Friends Haven,Kalavakkam,Pawsome Chow(D),2345.00,100,Kitty Kibble(C),1345.50,100,Avian Delights(B),1900.00,100,Reef Refreshments(F),2250.00,100,Rodent Roundup(H),1750.00,100,
+The Paw Palace,Sholinganallur,Tail-Wagging Treats(D),1800.00,100,Purr-fect Bites(C),2000.00,100,Birdie Bites(B),1230.00,100,Aqua Cuisine(F),1980.00,100,Whisker Waggle Mix(H),2350.00,100,
+Critter Cove,Adyar,Woof Wonders(D),2000.00,97,Feline Favorites(C),1700.00,99,Feather Frenzy(B),1870.00,86,Marine Morsels(F),1870.00,98,Hamsterific Bites(H),2780.00,96,
+Pet Paradise Market,Neelankarai,Rover's Delight(D),1200.00,100,Catnip Cuisine(C),1900.00,100,Beak Buffet(B),1320.00,100,Aquatic Appetizers(F),1890.00,100,Mini Munchies(H),2990.00,100,

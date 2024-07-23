@@ -1,0 +1,33 @@
+unsigned char hash[SHA256_DIGEST_LENGTH];
+// Define an array `hash` of unsigned characters to store the resulting SHA-256 hash.
+// SHA256_DIGEST_LENGTH is a macro that defines the length of a SHA-256 hash (32 bytes).
+
+SHA256_CTX sha256;
+// Define a variable `sha256` of type SHA256_CTX to hold the SHA-256 context (state).
+// This context is used to maintain and update the hash calculation process.
+
+SHA256_Init(&sha256);
+// Initialize the SHA-256 context using SHA256_Init function.
+// This prepares the `sha256` context for the hash computation.
+
+SHA256_Update(&sha256, password, strlen(password));
+// Update the SHA-256 context with the data to be hashed.
+// `password` is the input data (the password in this case) and `strlen(password)` gives its length.
+// SHA256_Update processes the password and updates the `sha256` context.
+
+SHA256_Final(hash, &sha256);
+// Finalize the SHA-256 computation and store the resulting hash in the `hash` array.
+// SHA256_Final completes the hash calculation and fills the `hash` array with the resulting hash value.
+
+for (int i = 0; i < SHA256_DIGEST_LENGTH; i++)
+{
+    sprintf(hashedPassword + (i * 2), "%02x", hash[i]);
+}
+// Loop through each byte of the hash and convert it to a hexadecimal string representation.
+// `hashedPassword + (i * 2)` points to the position in the output string where the next hex digit should be written.
+// `"%02x"` formats each byte as a two-digit hexadecimal number.
+// The result is written into `hashedPassword`.
+
+hashedPassword[HASH_LENGTH - 1] = 0;
+// Null-terminate the resulting string by setting the last character of `hashedPassword` to 0 (null character).
+// HASH_LENGTH should be defined as (SHA256_DIGEST_LENGTH * 2 + 1) to accommodate the full hex string plus the null terminator.

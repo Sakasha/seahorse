@@ -1,0 +1,7 @@
+Emily,9456783264,abcdefg ,Adyar,Chicken Momos,Vanilla Bean Cream Puffs,Chickpea Curry,Lentil Shepherd's Pie,Matcha Green Tea Cheesecake Bars
+Johnson,9884567723,b,Neelankarai,Honey Garlic Glazed Salmon,Pulled Jackfruit Sandwich,Eggplant Parmesan,Sweet Potato and Black Bean Enchiladas,Teriyaki Glazed Chicken Stir(E)
+Olivia,7983445678,c,Kalavakkam,Shrimp Scampi Linguine(E),Bhindi Masala,Crispy Fried Chicken Tenders ,Mushroom Risotto Cake(M),Thai Green Curry with Tofu
+Patel,8923461085,d,Sholinganallur,Butter Chicken Burger,Hummus-Stuffed Pita Pockets(M),Paneer Tikka Pizza(M),Grilled Mahi Mahi with Mango Salsa,Herb and Cheese Focaccia Twists
+Sophia,7945312006,e,Anna Nagar,BBQ Chicken Pizza,Palak Paneer(M),Fish and Chips,Garlic Breadsticks(M),Spaghetti Bolognese
+shiv,1234567890,shiv,anna nagar
+shrika,1234567890,hi,anna nagar
