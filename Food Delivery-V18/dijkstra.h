@@ -11,7 +11,7 @@
 
 /*
     This file handles idijkstra algorithm for calculating distance
-    the location details and restaurant names are hard coded
+    the location details and restaurant names are hard coded.
 */
 
 #define V 20        // Number of vertices (locations)
